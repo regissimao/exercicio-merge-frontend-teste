@@ -4,7 +4,7 @@ function formatUser(user) {
   // 🔥 PONTO DE CONFLITO: vários alunos alterarão este mesmo trecho
   // TODO: retornar uma string "Nome <email>" OU "NOME - email" OU outro formato padronizado
   // Exemplo inicial (mude aqui de forma diferente em branches distintas):
-  return `${user.name} (${user.email})`;
+  return `Name: ${user.name}, Email: (${user.email})`;
 }
 
 function renderUserBox() {
